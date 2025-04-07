@@ -2,7 +2,6 @@
 package solutions;
 
 import java.util.HashSet;
-
 public class Solution {
    public Solution() {
    }
