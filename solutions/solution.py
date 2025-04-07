@@ -6,3 +6,4 @@ class Solution:
                 return True  # Duplicate found
             seen.add(num)
         return False  # No duplicates
+        
