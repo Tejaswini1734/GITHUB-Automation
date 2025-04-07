@@ -8,6 +8,7 @@ int compare(const void *a, const void *b) {
 }
 
 
+
 bool containsDuplicate(int *nums, int numsSize) {
     if (numsSize <= 1) return false;
 
