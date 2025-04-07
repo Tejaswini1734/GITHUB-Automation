@@ -2,9 +2,7 @@
 #include <stdbool.h>
 #include <assert.h>
 #include <limits.h>
-
-// Include only the solution implementation
-#include "../solutions/solution.c"
+#include "../solutions/solution.c"  // Include your solution file
 
 // Function to run individual test cases
 void runTestCase(int arr[], int n, bool expected, int *passedCount, int *total) {
@@ -39,6 +37,9 @@ int main() {
     runTestCase(arr3, 5, true, &passedCount, &total);
 
     // ✅ Edge Cases
+    int arr4[] = {}; // Empty array
+    runTestCase(arr4, 0, false, &passedCount, &total);
+
     int arr5[] = {42}; // Single element
     runTestCase(arr5, 1, false, &passedCount, &total);
 
