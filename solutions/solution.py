@@ -1,3 +1,4 @@
+
 class Solution:
     def containsDuplicate(self, nums):
         seen = set()
