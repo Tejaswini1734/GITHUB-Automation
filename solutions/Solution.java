@@ -1,6 +1,5 @@
 // Source code is decompiled from a .class file using FernFlower decompiler.
 package solutions;
-
 import java.util.HashSet;
 public class Solution {
    public Solution() {
